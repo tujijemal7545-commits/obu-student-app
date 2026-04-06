@@ -95,7 +95,7 @@ export default function RegisterScreen() {
         <ImageBackground 
           source={require('../../assets/images/jama.jpg')} 
           style={s.hero} 
-          imageStyle={{ opacity: 0.35, resizeMode: 'cover', top: 0 }}
+          imageStyle={{ opacity: 0.6, resizeMode: 'cover', top: 0 }}
         >
           <View style={s.badge}><Ionicons name="moon" size={13} color={CYAN} /><Text style={s.badgeText}>OBU MUSLIM STUDENTS</Text></View>
           <Text style={s.heroTitle}>Student{'\n'}<Text style={{ color: CYAN }}>Registration</Text></Text>
@@ -259,7 +259,7 @@ export default function RegisterScreen() {
 
 const s = StyleSheet.create({
   container: { paddingBottom: 40 },
-  bgWatermark: { position: 'absolute', width: '100%', height: '100%', opacity: 0.25, resizeMode: 'cover', zIndex: -1 },
+  bgWatermark: { position: 'absolute', width: '100%', height: '100%', opacity: 0.5, resizeMode: 'cover', zIndex: -1 },
   hero: { paddingHorizontal: 22, paddingTop: 36, paddingBottom: 28, position: 'relative' },
   cornerLogo: { position: 'absolute', top: 15, right: 15, width: 70, height: 70, opacity: 0.1, resizeMode: 'contain' },
   heroLogo: { width: 90, height: 90, resizeMode: 'contain', marginTop: 18, opacity: 1, alignSelf: 'flex-start' },
